@@ -8,7 +8,7 @@
   --red: #e21d2b;
   --green: #028a41;
   --blue: #0887a8;
-  --purple: #66528b;
+  --purple: #66528b;f
   --shadow: 0 24px 70px rgba(31, 31, 31, 0.12);
   --radius: 8px;
   --pill: 999px;
@@ -641,7 +641,7 @@ p {
 .dimension-height {
   top: 230px;
   right: 42px;
-  transform: rotate(68deg);
+  transform: rotate(70deg);
 }
 
 .dimension-width {
