@@ -641,12 +641,12 @@ p {
 .dimension-height {
   top: 230px;
   right: 42px;
-  transform: rotate(90deg);
+  transform: rotate(68deg);
 }
 
 .dimension-width {
-  left: 170px;
-  bottom: 44px;
+  left: 190px;
+  bottom: 85px;
 }
 
 .fit-list {
