@@ -8,7 +8,7 @@
   --red: #e21d2b;
   --green: #028a41;
   --blue: #0887a8;
-  --purple: #66528b;f
+  --purple: #66528b;
   --shadow: 0 24px 70px rgba(31, 31, 31, 0.12);
   --radius: 8px;
   --pill: 999px;
@@ -429,9 +429,9 @@ p {
 }
 
 .callout-top {
-  top: 56px;
+  top: 55px;
   right: 170px;
-  transform: rotate(-18deg);
+  transform: rotate(-20deg);
 }
 
 .callout-side {
@@ -639,14 +639,14 @@ p {
 }
 
 .dimension-height {
-  top: 230px;
-  right: 42px;
-  transform: rotate(75deg);
+  top: 150px;
+  right: 10px;
+  transform: rotate(72deg);
 }
 
 .dimension-width {
-  left: 190px;
-  bottom: 85px;
+  left: 220px;
+  bottom: 140px;
 }
 
 .fit-list {
@@ -1181,8 +1181,20 @@ p {
   }
 
   .callout-side {
-    right: 26px;
-  }
+  right: 26px;
+}
+
+.dimension-height {
+  top: 150px;
+  right: 20px;
+  transform: rotate(72deg);
+}
+
+.dimension-width {
+  left: 50%;
+  bottom: 90px;
+  transform: translateX(-50%);
+}
 }
 
 @media (max-width: 760px) {
@@ -1329,14 +1341,15 @@ p {
   }
 
   .callout-top {
-    top: 16px;
-    right: auto;
-    left: 18px;
+    top: 105px;
+    right: 260px;
+    rotate: 20deg;
   }
 
   .callout-side {
-    top: 82px;
-    right: 10px;
+    top: 250px;
+    right: 250px;
+    rotate: -21deg;
   }
 
   .wave-panel {
@@ -1366,13 +1379,15 @@ p {
   }
 
   .dimension-height {
-    top: 178px;
-    right: 0;
+    top: 110px;
+    right: -10px;
+    transform: rotate(71deg);
   }
 
   .dimension-width {
-    left: 20px;
-    bottom: 8px;
+    left: 50%;
+    bottom: 60px;
+    transform: translateX(-50%);
   }
 
   .market-column,
@@ -1411,7 +1426,10 @@ p {
   }
 
   .purchase-copy h1 {
-    font-size: 58px;
+  font-size: 48px;
+  line-height: 1.15;
+  letter-spacing: -0.04em;
+  max-width: 100%;
   }
 
   .purchase-badges span {
